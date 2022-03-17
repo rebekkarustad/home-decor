@@ -1,0 +1,56 @@
+.fa-bars,
+.fa-magnifying-glass {
+  font-size: 2rem;
+  color: var(--primary);
+  padding: 20px;
+}
+
+.fa-magnifying-glass {
+  justify-self: end;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ ul {
+  display: block;
+}
+
+nav {
+  margin: 0 auto;
+  font-size: 1.2rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+nav img {
+  width: 250px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary);
+  text-align: center;
+}
+
+nav a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+nav ul {
+  grid-row: 2;
+  background-color: var(--light);
+  list-style-type: none;
+  display: none;
+}
+
+nav li {
+  padding: 7px;
+}
+
+.active {
+  text-decoration: underline;
+}
