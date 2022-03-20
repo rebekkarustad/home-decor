@@ -18,6 +18,10 @@
     display: inline;
     padding: 30px;
   }
+
+  .main-container img {
+    height: 600px;
+  }
 }
 
 @media (min-width: 1100px) {
