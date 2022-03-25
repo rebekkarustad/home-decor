@@ -18,6 +18,7 @@ h1 {
 
 h2 {
   grid-column: -1 / 1;
+  font-weight: 500;
 }
 
 h3 {
