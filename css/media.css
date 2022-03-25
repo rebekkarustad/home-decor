@@ -1,7 +1,7 @@
 @media (min-width: 850px) {
   .fa-bars,
   .fa-magnifying-glass {
-    display: none;
+    display: none !important;
   }
 
   nav ul {
@@ -21,6 +21,39 @@
 
   .main-container img {
     height: 600px;
+  }
+  h1 {
+    bottom: 8px;
+    left: 16px;
+    top: 80%;
+    transform: none;
+  }
+
+  .login-link {
+    display: none;
+  }
+
+  /* top bar */
+
+  .top-bar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary);
+  }
+
+  .top-profile,
+  .top-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 5px;
+  }
+
+  .profile-icon {
+    height: 1.3rem;
+    font-size: 1.3rem;
+    color: var(--primary);
   }
 }
 
@@ -55,6 +88,11 @@
   }
   .signup-button {
     width: 100px;
+  }
+
+  /* Living */
+  .best-sellers {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
