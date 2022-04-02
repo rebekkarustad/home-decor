@@ -3,9 +3,8 @@ main {
 }
 
 h1 {
+  font-family: var(--font-header);
   position: absolute;
-  /* margin-top: -130px;
-  margin-left: 20px; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -54,6 +53,3 @@ footer {
   width: 100%;
 }
 
-.top-bar {
-  display: none;
-}

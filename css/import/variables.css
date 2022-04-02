@@ -4,4 +4,7 @@
   --light: #ffffff;
   --dark: #000000;
   --nautral: #dadada;
+
+  --font-header: 'Antic Didone', serif;
+  --font-text: 'Open Sans', sans-serif;
 }
